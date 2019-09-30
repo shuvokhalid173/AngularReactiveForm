@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { User } from './user';
 import { FormBuilder, Validators } from '@angular/forms';
-import { forbiddenNameValidator, passValidator, passFieldEmpty } from './shared/user-name.validator';
+import { forbiddenNameValidator, passValidator, passFieldEmpty, confirmPasswordValidator} from './shared/user-name.validator';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { forbiddenNameValidator, passValidator, passFieldEmpty } from './shared/
 })
 export class AppComponent {
 
-  constructor(private formBuider : FormBuilder) {}
+  constructor(private formBuider : FormBuilder) {console.log(this.password);}
 
   get userName () {
     return this.RegistrationForm.get('userName');
@@ -34,7 +34,7 @@ export class AppComponent {
       district : [''],
       division:['']
     })
-  })
+  }, {validator : confirmPasswordValidator});
 
 
   // RegistrationForm = new FormGroup ({
