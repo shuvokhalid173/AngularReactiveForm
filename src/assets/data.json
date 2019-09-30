@@ -1,0 +1,6 @@
+[{"id" : 1 ,  "name": "Angular", "price": "20$" },
+{ "id" : 2 , "name": "React", "price": "25$" },
+{ "id" : 3 , "name": "Vue", "price": "25$" },
+{ "id" : 4 , "name": "MEAN stack", "price": "50$" } , 
+{ "id" : 5 ,"name" : "Spring + React" , "price" : "65$"}
+]

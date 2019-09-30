@@ -1,0 +1,11 @@
+[
+    {"id" : 1 , "name" : "Apple" , "category" : "Fruits"} ,     
+    {"id" : 2 , "name" : "Orange" , "category" : "Fruits"} , 
+    {"id" : 3 , "name" : "Chomchom" , "category" : "Sweets"} , 
+    {"id" : 4 , "name" : "Doi" , "category" : "Sweets"} , 
+    {"id" : 5 , "name" : "Beefs" , "category" : "Meats"} , 
+    {"id" : 6 , "name" : "Mutton" , "category" : "Meats"} , 
+    {"id" : 7 , "name" : "Climbingfish" , "category" : "Fish"} , 
+    {"id" : 8 , "name" : "Potato" , "category" : "Vegetables"} , 
+    {"id" : 9 , "name" : "Brinjal" , "category" : "Vegetables"} 
+]
