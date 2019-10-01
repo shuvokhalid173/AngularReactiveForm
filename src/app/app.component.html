@@ -1,5 +1,9 @@
 <div class="container-fluid">
-  
+  <app-example-form></app-example-form>
+</div>
+
+<div class="container-fluid">
+
   <h2>Registration form</h2>
   <h3>{{loader}}</h3>
 {{RegistrationForm.value | json}}
@@ -51,7 +55,7 @@
         password does not match
       </div>
     </div>
-  
+
     <div formGroupName='address'>
       <div class="form-group">
         <label>Upozila</label>

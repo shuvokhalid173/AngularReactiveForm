@@ -1,0 +1,15 @@
+<form [formGroup]='CommentFrom'>
+    <div class="form-group">
+        <label>comment</label>
+        <input [class.is-invalid]='comment.invalid && comment.touched' formControlName='comment' type="text" class="form-control">
+        <div class="text-danger" *ngIf='comment.invalid && comment.touched'>
+            comment is required
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input formControlName='ed_comment' type="checkbox">
+        <label>enable comment</label>
+    </div>
+</form>
+{{CommentFrom.valid}}
